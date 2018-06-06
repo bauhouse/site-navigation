@@ -447,16 +447,30 @@ Navigation
   position: absolute;
   left: 0;
   right: 0;
-  background: #331117;
+  background: #333;
   overflow: hidden;
   z-index: 2000;
-  width: auto;
+  width: 400%;
   padding: 20px;
   white-space: normal;
 }
 
+#nav-search .panel {
+  margin-left: -100%;
+}
+
+#nav-directory .panel {
+  margin-left: -200%;
+}
+
+#nav-directory .panel ul {
+  padding: 0 20px;
+}
+
 #nav-directory .panel p {
-  font-size: 1.2em;
+  font: normal normal 0.85em/1 "Open Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0 20px;
 }
 
 #nav-directory .panel ul li {
@@ -945,8 +959,16 @@ Branding
   background-color: #000;
 }
 
+.global-nav .panel a:hover {
+  background: #222;
+}
+
+.global-nav .panel a:active {
+  background: #000;
+}
+
 #nav-directory .panel p {
-  color: #fff;
+  color: #ccc;
 }
 
 .main-nav a {

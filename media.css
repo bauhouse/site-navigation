@@ -95,6 +95,19 @@ Small Screens (749 pixels wide max)
   .global-nav #shortcuts-nav .panel li a {
     padding: .7em 20px;
   }
+
+}
+
+
+/*
+--------------------------------------------------
+Small Screens (480 pixels wide)
+-------------------------------------------------- */
+@media (min-width: 480px) {
+
+  #nav-directory .panel ul li {
+    width: 10%;
+  }
 }
 
 /*

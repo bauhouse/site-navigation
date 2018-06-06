@@ -127,6 +127,10 @@ Small Screens (600 pixels wide)
     float: left;
   }
 
+  .site-info {
+    float: left;
+  }
+
   .grid-nav li {
     float: left;
     width: 50%;

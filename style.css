@@ -147,7 +147,7 @@ TYPOGRAPHY
 Fonts
 -------------------------------------------------- */
 body {
-  font: normal 100%/1.5em "Open Sans", Helvetica, Arial, "sans-serif";
+  font: normal 100%/1.5em "Open Sans", Helvetica, Arial, sans-serif;
   color: #666;
 }
 
@@ -779,6 +779,16 @@ Footer
 
 .footer-nav li a:hover {
   color: #fff;
+}
+
+.site-info {
+  font-size: .875em;
+  padding: 20px;
+}
+
+p.copyright {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  margin: 20px 0 0;
 }
 
 /*

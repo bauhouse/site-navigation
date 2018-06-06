@@ -497,8 +497,8 @@ Navigation
 }
 
 #shortcuts-item:before,
-#nav-search a:before,
-#nav-directory a:before,
+#nav-search > a:before,
+#nav-directory-item:before,
 #nav-contact a:before {
   font-family: 'Octicons';
   -webkit-font-smoothing: antialiased;
@@ -512,12 +512,12 @@ Navigation
   left: .1em;
 }
 
-#nav-search a:before {
+#nav-search > a:before {
   content: "\f02e";
   top: .25em;
 }
 
-#nav-directory a:before {
+#nav-directory-item:before {
   content: "\f007";
 }
 

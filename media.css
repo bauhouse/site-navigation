@@ -10,7 +10,7 @@ MEDIA QUERIES
 --------------------------------------------------
 Small Screens (320 pixels wide)
 -------------------------------------------------- */
-@media (min-width: 320px) {
+@media only screen and (min-width: 320px) {
   .main-nav {
     padding: 0;
     border-top: none;
@@ -38,7 +38,7 @@ Small Screens (320 pixels wide)
 --------------------------------------------------
 Small Screens (749 pixels wide max)
 -------------------------------------------------- */
-@media (max-width: 749px) {
+@media only screen and (max-width: 749px) {
 
   #shortcuts-nav ul {
     display: none;
@@ -103,7 +103,7 @@ Small Screens (749 pixels wide max)
 --------------------------------------------------
 Small Screens (480 pixels wide)
 -------------------------------------------------- */
-@media (min-width: 480px) {
+@media only screen and (min-width: 480px) {
 
   #nav-directory .panel ul li {
     width: 10%;
@@ -114,7 +114,7 @@ Small Screens (480 pixels wide)
 --------------------------------------------------
 Small Screens (600 pixels wide)
 -------------------------------------------------- */
-@media (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 
   .global-nav a span {
     display: inline;

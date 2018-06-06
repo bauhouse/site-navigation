@@ -326,8 +326,8 @@ Navigation
   font-size: .875em;
   font-size: .75rem;
   text-transform: uppercase;
-  padding-top: .8em;
-  padding-bottom: .8em;
+  padding-top: .7em;
+  padding-bottom: 1em;
 }
 
 /* Main Navigation
@@ -870,10 +870,18 @@ Branding
   color: #0098c1;
 }
 
-#shortcuts-item,
+#shortcuts-nav {
+  width: 25%;
+}
+
+#utility-nav {
+  width: 75%;
+}
+
 #nav-search,
 #nav-directory,
 #nav-contact {
+  width: 33.3333333333%;
   position: relative;
 }
 
@@ -881,8 +889,7 @@ Branding
 #nav-search a,
 #nav-directory a,
 #nav-contact  a{
-  position: relative;
-  padding-left: 3.5em;
+  text-align: center;
 }
 
 #shortcuts-item:before,
@@ -891,10 +898,10 @@ Branding
 #nav-contact a:before {
   font-family: 'Octicons';
   -webkit-font-smoothing: antialiased;
-  font-size: 2em;
-  position: absolute;
-  left: .5em;
+  font-size: 2.5em;
   color: #fff;
+  position: relative;
+  top: .2em;
 }
 
 #shortcuts-item:before {

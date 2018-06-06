@@ -416,8 +416,12 @@ Navigation
   display: none;
 }
 
-#shortcuts-item {
+#shortcuts-nav .panel {
   display: none;
+}
+
+#shortcuts-item {
+  display: block;
 }
 
 .panel {
@@ -943,15 +947,4 @@ Branding
 
 .grid-item a:hover {
   background: #eee;
-}
-
-
-/* Testing
--------------------------------------------------- */
-#shortcuts-nav .panel {
-  display: none;
-}
-
-#shortcuts-item {
-  display: block;
 }

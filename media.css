@@ -38,6 +38,25 @@ Small Screens (320 pixels wide)
 Small Screens (600 pixels wide)
 -------------------------------------------------- */
 @media (min-width: 600px) {
+
+
+  .global-nav a span {
+    display: inline;
+  }
+
+  #shortcuts-item,
+  #utility-nav li a {
+    text-align: left;
+  }
+
+  #shortcuts-item:before,
+  #nav-search a:before,
+  #nav-directory a:before,
+  #nav-contact a:before {
+    font-size: 2em;
+    margin-right: .25em;
+  }
+
   .grid-nav li {
     float: left;
     width: 50%;

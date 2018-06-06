@@ -450,27 +450,14 @@ Navigation
   background: #333;
   overflow: hidden;
   z-index: 2000;
-  width: 400%;
   padding: 20px;
   white-space: normal;
-}
-
-#nav-search .panel {
-  margin-left: -100%;
-}
-
-#nav-directory .panel {
-  margin-left: -200%;
-}
-
-#nav-directory .panel ul {
-  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 #nav-directory .panel p {
   font: normal normal 0.85em/1 "Open Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  padding: 0 20px;
 }
 
 #nav-directory .panel ul li {
@@ -500,7 +487,6 @@ Navigation
 #nav-directory,
 #nav-contact {
   width: 33.3333333333%;
-  position: relative;
 }
 
 #shortcuts-item,

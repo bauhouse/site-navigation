@@ -399,6 +399,10 @@ Navigation
   padding: .7em 12px;
 }
 
+.global-nav a span {
+  display: none;
+}
+
 .global-nav li {
   float: left;
 }
@@ -468,6 +472,57 @@ Navigation
 #shortcuts-nav.open .panel a {
   /* Fix for iPhone font resizing jump */
   font-size: 14px;
+}
+
+#shortcuts-nav {
+  width: 25%;
+}
+
+#utility-nav {
+  width: 75%;
+}
+
+#nav-search,
+#nav-directory,
+#nav-contact {
+  width: 33.3333333333%;
+  position: relative;
+}
+
+#shortcuts-item,
+#nav-search a,
+#nav-directory a,
+#nav-contact  a{
+  text-align: center;
+}
+
+#shortcuts-item:before,
+#nav-search a:before,
+#nav-directory a:before,
+#nav-contact a:before {
+  font-family: 'Octicons';
+  -webkit-font-smoothing: antialiased;
+  font-size: 2.5em;
+  position: relative;
+  top: .15em;
+}
+
+#shortcuts-item:before {
+  content: "\f05e";
+  left: .1em;
+}
+
+#nav-search a:before {
+  content: "\f02e";
+  top: .2em;
+}
+
+#nav-directory a:before {
+  content: "\f007";
+}
+
+#nav-contact a:before {
+  content: "\f03b";
 }
 
 /* Main Navigation
@@ -883,60 +938,11 @@ Branding
   color: #0098c1;
 }
 
-#shortcuts-nav {
-  width: 25%;
-}
-
-#utility-nav {
-  width: 75%;
-}
-
-#nav-search,
-#nav-directory,
-#nav-contact {
-  width: 33.3333333333%;
-  position: relative;
-}
-
-#shortcuts-item,
-#nav-search a,
-#nav-directory a,
-#nav-contact  a{
-  text-align: center;
-}
-
 #shortcuts-item:before,
 #nav-search a:before,
 #nav-directory a:before,
 #nav-contact a:before {
-  font-family: 'Octicons';
-  -webkit-font-smoothing: antialiased;
-  font-size: 2.5em;
   color: #fff;
-  position: relative;
-  top: .15em;
-}
-
-#shortcuts-item:before {
-  content: "\f05e";
-  left: .1em;
-}
-
-#nav-search a:before {
-  content: "\f02e";
-  top: .2em;
-}
-
-#nav-directory a:before {
-  content: "\f007";
-}
-
-#nav-contact a:before {
-  content: "\f03b";
-}
-
-.global-nav a span {
-  display: none;
 }
 
 /* Grid Items

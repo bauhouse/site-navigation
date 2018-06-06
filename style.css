@@ -517,6 +517,15 @@ Navigation
   top: .25em;
 }
 
+#nav-search input {
+  margin-top: 0;
+}
+
+#nav-search .button {
+  margin-bottom: 0;
+  border-color: #000;
+}
+
 #nav-directory-item:before {
   content: "\f007";
 }

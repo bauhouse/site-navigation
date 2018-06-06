@@ -57,6 +57,23 @@ Small Screens (600 pixels wide)
     margin-right: .25em;
   }
 
+  /* Footer
+  -------------------------------------------------- */
+  .organization-info {
+    float: left;
+    width: 50%;
+  }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .nav-group {
+    float: left;
+  }
+
   .grid-nav li {
     float: left;
     width: 50%;
@@ -174,9 +191,14 @@ Large Screens (980 pixels wide)
     width: 25%;
   }
 
+  .footer-nav {
+    width: 75%;
+    padding: 0;
+  }
+
   .nav-group {
     float: left;
-    width: 25%;
+    width: 33.3333333333%;
   }
 
   .nav-group .container {

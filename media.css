@@ -36,6 +36,67 @@ Small Screens (320 pixels wide)
 
 /*
 --------------------------------------------------
+Small Screens (480 pixels wide)
+-------------------------------------------------- */
+@media only screen and (min-width: 480px) {
+
+  #nav-directory .panel ul li {
+    width: 10%;
+  }
+}
+
+/*
+--------------------------------------------------
+Small Screens (600 pixels wide)
+-------------------------------------------------- */
+@media only screen and (min-width: 600px) {
+
+  .global-nav a span {
+    display: inline;
+  }
+
+  #shortcuts-item,
+  #utility-nav li a {
+    text-align: left;
+  }
+
+  #shortcuts-item:before,
+  #nav-search a:before,
+  #nav-directory a:before,
+  #nav-contact a:before {
+    font-size: 2em;
+    margin-right: .25em;
+  }
+
+  /* Footer
+  -------------------------------------------------- */
+  .organization-info {
+    float: left;
+    width: 50%;
+  }
+
+  .footer-nav {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .nav-group {
+    float: left;
+  }
+
+  .site-info {
+    float: left;
+  }
+
+  .grid-nav li {
+    float: left;
+    width: 50%;
+  }
+}
+
+/*
+--------------------------------------------------
 Small Screens (749 pixels wide max)
 -------------------------------------------------- */
 @media only screen and (max-width: 749px) {
@@ -96,68 +157,6 @@ Small Screens (749 pixels wide max)
     padding: .7em 20px;
   }
 
-}
-
-
-/*
---------------------------------------------------
-Small Screens (480 pixels wide)
--------------------------------------------------- */
-@media only screen and (min-width: 480px) {
-
-  #nav-directory .panel ul li {
-    width: 10%;
-  }
-}
-
-/*
---------------------------------------------------
-Small Screens (600 pixels wide)
--------------------------------------------------- */
-@media only screen and (min-width: 600px) {
-
-  .global-nav a span {
-    display: inline;
-  }
-
-  #shortcuts-item,
-  #utility-nav li a {
-    text-align: left;
-  }
-
-  #shortcuts-item:before,
-  #nav-search a:before,
-  #nav-directory a:before,
-  #nav-contact a:before {
-    font-size: 2em;
-    margin-right: .25em;
-  }
-
-  /* Footer
-  -------------------------------------------------- */
-  .organization-info {
-    float: left;
-    width: 50%;
-  }
-
-  .footer-nav {
-    float: left;
-    width: 50%;
-    padding-top: 20px;
-  }
-
-  .nav-group {
-    float: left;
-  }
-
-  .site-info {
-    float: left;
-  }
-
-  .grid-nav li {
-    float: left;
-    width: 50%;
-  }
 }
 
 /*

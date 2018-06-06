@@ -955,7 +955,8 @@ Branding
   background-color: #333;
 }
 
-.global-nav #nav-search a:active {
+.global-nav #nav-search a:active,
+.global-nav #nav-directory.open #nav-directory-item:active {
   background-color: #000;
 }
 

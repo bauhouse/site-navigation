@@ -502,7 +502,7 @@ Navigation
 #nav-contact a:before {
   font-family: 'Octicons';
   -webkit-font-smoothing: antialiased;
-  font-size: 2.5em;
+  font-size: 2em;
   position: relative;
   top: .2em;
 }
@@ -523,6 +523,7 @@ Navigation
 
 #nav-contact a:before {
   content: "\f03b";
+  left: .1em;
   top: .18em;
 }
 

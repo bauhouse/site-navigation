@@ -922,3 +922,14 @@ Branding
 .grid-item a:hover {
   background: #eee;
 }
+
+
+/* Testing
+-------------------------------------------------- */
+#shortcuts-nav .panel {
+  display: none;
+}
+
+#shortcuts-item {
+  display: block;
+}

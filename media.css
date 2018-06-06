@@ -103,9 +103,6 @@ Small Screens (749 pixels wide max)
 
   #shortcuts-nav ul {
     display: none;
-    position: absolute;
-    left: 0;
-    right: 0;
     background: #333;
     overflow: hidden;
     z-index: 20;
@@ -113,6 +110,7 @@ Small Screens (749 pixels wide max)
 
   #shortcuts-nav.open ul {
     display: block;
+    width: 400%;
   }
 
   #shortcuts-nav.open #shortcuts-item {
@@ -183,8 +181,15 @@ Medium Screens (750 pixels wide)
     width: auto;
   }
 
+  #nav-search {
+    position: static;
+  }
+
   #nav-search .panel {
-    max-width: 1120px;
+    position: absolute;
+    width: 100%;
+    top: 3.4em;
+    left: 0;
     margin: 0 auto;
   }
 
@@ -207,6 +212,7 @@ Medium Screens (750 pixels wide)
   }
 
   #nav-directory .panel {
+    position: absolute;
     width: 320px;
     left: auto;
     right: 0;

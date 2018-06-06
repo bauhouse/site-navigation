@@ -382,6 +382,7 @@ Navigation
   white-space: nowrap;
   margin: 0;
 }
+
 .global-nav ul,
 .main-nav ul {
   margin: 0;
@@ -535,6 +536,21 @@ Navigation
   left: .1em;
   top: .18em;
 }
+
+
+/* Fixed Global Navigation
+-------------------------------------------------- */
+.global-nav {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+header {
+  padding-top: 3em;
+}
+
+
 
 /* Main Navigation
 -------------------------------------------------- */

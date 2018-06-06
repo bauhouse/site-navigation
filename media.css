@@ -43,3 +43,29 @@ Small Screens (600 pixels wide)
     width: 50%;
   }
 }
+
+/*
+--------------------------------------------------
+Large Screens (980 pixels wide)
+-------------------------------------------------- */
+@media only screen and (min-width: 980px) {
+
+  /* Footer
+  -------------------------------------------------- */
+  .organization-info {
+    float: left;
+    width: 25%;
+  }
+
+  .nav-group {
+    float: left;
+    width: 25%;
+  }
+
+  /* Grid
+  -------------------------------------------------- */
+  .grid-nav li {
+    float: left;
+    width: 12.5%;
+  }
+}

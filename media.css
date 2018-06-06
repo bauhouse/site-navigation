@@ -54,12 +54,22 @@ Small Screens (749 pixels wide max)
     display: block;
   }
 
+  #shortcuts-nav.open #shortcuts-item {
+    background: #333;
+  }
+
   #shortcuts-nav ul li {
     width: 100%;
     border-top: 1px solid #444;
   }
 
+  #shortcuts-nav.open #shortcuts-item:hover,
   #shortcuts-nav ul li a:hover {
+    background: #222;
+  }
+
+  #shortcuts-nav.open #shortcuts-item:active,
+  #shortcuts-nav ul li a:active {
     background: #000;
   }
 

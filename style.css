@@ -877,7 +877,7 @@ Branding
   position: relative;
 }
 
-#shortcuts-item a,
+#shortcuts-item,
 #nav-search a,
 #nav-directory a,
 #nav-contact  a{
@@ -885,7 +885,7 @@ Branding
   padding-left: 3.5em;
 }
 
-#shortcuts-item a:before,
+#shortcuts-item:before,
 #nav-search a:before,
 #nav-directory a:before,
 #nav-contact a:before {
@@ -897,7 +897,7 @@ Branding
   color: #fff;
 }
 
-#shortcuts-item a:before {
+#shortcuts-item:before {
   content: "\f05e";
 }
 

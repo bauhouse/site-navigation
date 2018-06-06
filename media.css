@@ -62,6 +62,10 @@ Large Screens (980 pixels wide)
     width: 25%;
   }
 
+  .nav-group .container {
+    padding: 20px;
+  }
+
   /* Grid
   -------------------------------------------------- */
   .grid-nav li {

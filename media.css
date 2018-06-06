@@ -188,6 +188,20 @@ Medium Screens (750 pixels wide)
     margin: 0 auto;
   }
 
+  #nav-search input {
+    float: left;
+  }
+
+  #nav-search input[type='text'] {
+    width: 79%;
+    margin-right: 1%;
+    margin-bottom: 0;
+  }
+
+  #nav-search .button {
+    width: 20%;
+  }
+
   #nav-directory {
     position: relative;
   }

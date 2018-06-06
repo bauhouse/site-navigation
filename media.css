@@ -64,6 +64,10 @@ Medium Screens (750 pixels wide)
     margin: 0 auto;
   }
 
+  #section-info {
+    max-width: 1080px;
+  }
+
   .main-nav {
     font-weight: normal;
     margin-left: 20px;

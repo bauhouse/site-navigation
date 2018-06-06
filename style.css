@@ -913,6 +913,10 @@ Branding
   content: "\f03b";
 }
 
+.global-nav a span {
+  display: none;
+}
+
 /* Grid Items
 -------------------------------------------------- */
 .grid-item a {

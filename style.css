@@ -366,7 +366,6 @@ CONTENT
 Branding
 -------------------------------------------------- */
 .branding {
-  float: left;
   margin: 0;
 }
 .branding a {
@@ -390,7 +389,6 @@ Navigation
 }
 .global-nav li,
 .main-nav li {
-  float: left;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -399,6 +397,10 @@ Navigation
 .main-nav a {
   display: block;
   padding: .7em 12px;
+}
+
+.global-nav li {
+  float: left;
 }
 
 .main-nav ul {
@@ -467,11 +469,18 @@ Navigation
 /* Main Navigation
 -------------------------------------------------- */
 .main-nav {
-  float: right;
+  padding: 0;
+  border-top: none;
 }
 
-.main-nav a {
-  padding: 3em 2em;
+.main-nav li {
+  border-top: 1px solid #e4e4e4;
+  padding-bottom: 0px;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  border-radius: 0;
 }
 
 /* Sub Navigation

@@ -920,11 +920,19 @@ Branding
   background-color: #333;
 }
 
+.global-nav a:active {
+  background-color: #000;
+}
+
 .global-nav #nav-search:hover a,
 .global-nav #nav-search.open a,
 .global-nav #nav-directory.open #nav-directory-item {
   color: #fff;
   background-color: #333;
+}
+
+.global-nav #nav-search a:active {
+  background-color: #000;
 }
 
 #nav-directory .panel p {

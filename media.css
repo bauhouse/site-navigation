@@ -87,6 +87,29 @@ Medium Screens (750 pixels wide)
     max-width: 1080px;
   }
 
+  #shortcuts-nav {
+    width: auto;
+  }
+
+  #shortcuts-item {
+    display: none;
+  }
+
+  #shortcuts-nav .panel {
+    display: block;
+  }
+
+  #utility-nav {
+    width: auto;
+    float: right;
+  }
+
+  #nav-search,
+  #nav-directory,
+  #nav-contact {
+    width: auto;
+  }
+
   .main-nav {
     font-weight: normal;
     padding-left: 40px;

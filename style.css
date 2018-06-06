@@ -915,10 +915,12 @@ Branding
 
 #shortcuts-item:before {
   content: "\f05e";
+  left: .1em;
 }
 
 #nav-search a:before {
   content: "\f02e";
+  top: .2em;
 }
 
 #nav-directory a:before {

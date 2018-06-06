@@ -882,6 +882,7 @@ Branding
 #nav-directory a,
 #nav-contact  a{
   position: relative;
+  padding-left: 3.5em;
 }
 
 #shortcuts-item a:before,
@@ -891,9 +892,8 @@ Branding
   font-family: 'Octicons';
   -webkit-font-smoothing: antialiased;
   font-size: 2em;
-  position: relative;
-  left: 0;
-  top: 0;
+  position: absolute;
+  left: .5em;
   color: #fff;
 }
 

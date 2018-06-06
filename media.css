@@ -5,6 +5,7 @@ MEDIA QUERIES
 
 ==================================================
 */
+
 /*
 --------------------------------------------------
 Small Screens (320 pixels wide)
@@ -35,10 +36,62 @@ Small Screens (320 pixels wide)
 
 /*
 --------------------------------------------------
+Small Screens (749 pixels wide max)
+-------------------------------------------------- */
+@media (max-width: 749px) {
+
+  #shortcuts-nav ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: #333;
+    overflow: hidden;
+    z-index: 20;
+  }
+
+  #shortcuts-nav.open ul {
+    display: block;
+  }
+
+  #shortcuts-nav ul li {
+    width: 100%;
+    border-top: 1px solid #444;
+  }
+
+  #shortcuts-nav ul li a:hover {
+    background: #000;
+  }
+
+  /* Adjustments for small screen panels */
+  .global-nav {
+    overflow: hidden;
+  }
+
+  .global-nav .panel {
+    position: relative!important;
+    width: 406.5%!important;
+    padding: 20px 0px!important;
+  }
+
+  .global-nav #shortcuts-nav .panel {
+    padding: 0px!important;
+  }
+
+  .global-nav #shortcuts-nav .panel li {
+    padding: 0px;
+  }
+
+  .global-nav #shortcuts-nav .panel li a {
+    padding: .7em 20px;
+  }
+}
+
+/*
+--------------------------------------------------
 Small Screens (600 pixels wide)
 -------------------------------------------------- */
 @media (min-width: 600px) {
-
 
   .global-nav a span {
     display: inline;

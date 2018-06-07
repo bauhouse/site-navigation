@@ -437,7 +437,8 @@ Navigation
 }
 
 #nav-search.open .panel,
-#nav-directory.open .panel {
+#nav-directory.open .panel,
+#nav-contact.open .panel {
   display: block;
 }
 
@@ -943,15 +944,15 @@ Branding
   background-color: #000;
 }
 
-.global-nav #nav-search:hover a,
-.global-nav #nav-search.open a,
-.global-nav #nav-directory.open #nav-directory-item {
+.global-nav #nav-search:hover > a,
+.global-nav #nav-search.open > a,
+.global-nav #nav-directory.open > a {
   color: #fff;
   background-color: #333;
 }
 
-.global-nav #nav-search a:active,
-.global-nav #nav-directory.open #nav-directory-item:active {
+.global-nav #nav-search > a:active,
+.global-nav #nav-directory.open > a:active {
   background-color: #000;
 }
 
@@ -977,9 +978,9 @@ Branding
 }
 
 #shortcuts-item:before,
-#nav-search a:before,
-#nav-directory a:before,
-#nav-contact a:before {
+#nav-search > a:before,
+#nav-directory > a:before,
+#nav-contact > a:before {
   color: #fff;
 }
 

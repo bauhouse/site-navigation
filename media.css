@@ -203,6 +203,7 @@ Medium Screens (750 pixels wide)
   }
 
   #nav-search input {
+    margin-top: 0;
     float: left;
   }
 
@@ -228,6 +229,25 @@ Medium Screens (750 pixels wide)
 
   #nav-directory .panel ul li {
     width: 20%;
+  }
+
+  #nav-contact fieldset {
+    float: left;
+    width: 48.5%;
+    margin-right: 1.5%;
+    margin-bottom: 0;
+  }
+
+  #email-subject {
+    margin-bottom: 0;
+  }
+
+  #nav-contact textarea {
+    width: 50%;
+  }
+
+  #nav-contact .button {
+    width: 50%;
   }
 
   .main-nav {

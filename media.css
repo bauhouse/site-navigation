@@ -169,12 +169,25 @@ Medium Screens (750 pixels wide)
   }
 
   #shortcuts-nav .panel {
-    display: block;
+    background: none;
+    position: static;
+  }
+
+  .global-nav #shortcuts-nav .panel a:hover {
+    background-color: #333;
+  }
+
+  .global-nav #shortcuts-nav .panel a:active {
+    background-color: #000;
   }
 
   #utility-nav {
     width: auto;
     float: right;
+  }
+
+  #utility-nav .nav {
+    width: auto;
   }
 
   #nav-search,
@@ -183,7 +196,8 @@ Medium Screens (750 pixels wide)
     width: auto;
   }
 
-  #nav-search .panel {
+  #nav-search .panel,
+  #nav-contact .panel {
     max-width: 1120px;
     margin: 0 auto;
   }
